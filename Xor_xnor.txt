@@ -1,0 +1,13 @@
+XOR gate
+
+A 
+B'
+A'
+B'
+
+A'
+B 
+A 
+B 
+
+# Test ciruit has only 2 inputs
