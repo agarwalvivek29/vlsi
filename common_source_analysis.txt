@@ -1,0 +1,26 @@
+# Transient
+
+Stop time = 5m
+Accuracy Defaults = moderate
+Enbaled = checked
+
+# Analysis: DC
+
+Save DC Operating Point: checked
+Component: /V3 (Select vsin)
+Component Parameter: DC
+Sweep Range: Start-Stop
+Start = -5
+Stop = 5
+Sweep Type = Automatic
+Enabled = checked
+
+# Analysis:
+ 
+Sweep Variable = Frequency
+Sweep Range = Start - Stop
+Start = 100
+Stop = 100M
+Sweep Type = Logarithmic
+Points Per Decade = 20
+Enabled = checked
