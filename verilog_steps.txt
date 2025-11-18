@@ -1,0 +1,13 @@
+mkdir inv
+gedit inv.v
+gedit inv_tb.v
+
+ncverilog inv.v -mess
+#If errors occur, then resolve them and check again
+
+ncverilog inv_test.v -mess
+ncverilog -access +rwc -mess -inv.v -inv_tb.v -gui
+
+# If the above does not work use _gui
+
+# A gui appears and there do shift + right click and select all the components and then press the Push all to waveform button. 
