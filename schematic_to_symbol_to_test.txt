@@ -1,0 +1,13 @@
+Create - cellview - from cellview - if the lib name is smae, press K or else drop down to choose your lib. Change top pins, bottom pins etc
+
+Delete the unwnated part 
+
+The Symbol has been created!
+
+Go to virtuoso (scematic window) - go to file - new - change cell name as inverter_test - K 
+Then press i to browse the library and choose your and then choose and create your Symbol
+After doing this, press i and browse analoglib - vpulse - close
+
+Simulation Steps:
+Launch - ADEL - Analysis  - Choose Trans, Then choose DC  - Same DC Operating Point - Enable component parameter - select component - parameter window will open 
+Finally - To be Plotted - Select on Design - Select the wires for input and output
